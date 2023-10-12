@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class ChuckNorrisConfig {
 
     @Bean
-    public ChuckNorrisInfoContributor chuckNorrisInfoContributor(){
+    public ChuckNorrisInfoContributor chuckNorrisInfoContributor() {
         return new ChuckNorrisInfoContributor();
     }
 }

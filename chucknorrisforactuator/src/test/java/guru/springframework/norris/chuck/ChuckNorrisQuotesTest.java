@@ -10,9 +10,9 @@ import static org.junit.Assert.assertNotNull;
  */
 public class ChuckNorrisQuotesTest {
     ChuckNorrisQuotes quotes;
-    
+
     @Before
-    public void initialize(){
+    public void initialize() {
         quotes = new ChuckNorrisQuotes();
     }
 
